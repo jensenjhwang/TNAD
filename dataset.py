@@ -141,8 +141,6 @@ def get_uci_datasets(ds_name, tab_dir, preprocess='normal'):
       `data`: Features with shape [N, F, 1].
       `label`: `0` or `1` representing anomalous and normal.
   """
-  base_path = '/cns/lu-d/home/jensenwang/data/'
-  ds_path = base_path + ds_name + '.mat'
   ds_path = os.path.join(tab_dir, ds_name + '.mat')
   with gfile.GFile(ds_path, 'rb') as f:
     data = scipy.io.loadmat(f)
