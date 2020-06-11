@@ -60,7 +60,8 @@ python3 train.py --ds_name cover --alpha 0.1 --spacing 1 --p_dim 8 --learning_ra
 
 ## Results
 
-Our results on MNIST/Fashion-MNIST and five ODDS datasets are shown below.
+Our results on MNIST/Fashion-MNIST and five ODDS datasets are shown below
+(under the TNAD column).
 
 ![Alt text](/results/mnist.png?raw=true "MNIST/Fashion-MNIST Results")
 
