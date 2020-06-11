@@ -28,38 +28,31 @@ reproduce results for MNIST/Fashion-MNIST where only `0` is deemed normal, one
 can run
 
 ```
-python3 train.py --ds_name mnist --alpha 0.4 --spacing 8 --learning_rate 2e-3
---w_decay 0.01 --true_labels 0
+python3 train.py --ds_name mnist --alpha 0.4 --spacing 8 --learning_rate 2e-3 --w_decay 0.01 --true_labels 0
 ```
 
 ```
-python3 train.py --ds_name fashion_mnist --alpha 0.4 --spacing 8
---learning_rate 2e-3 --w_decay 0.01 --true_labels 0
+python3 train.py --ds_name fashion_mnist --alpha 0.4 --spacing 8 --learning_rate 2e-3 --w_decay 0.01 --true_labels 0
 ```
 
 To reproduce results for tabular datasets:
 
 ```
-python3 train.py --ds_name wine --alpha 0.3 --spacing 1 --p_dim 4
---learning_rate 2e-3 --w_decay 0.01
+python3 train.py --ds_name wine --alpha 0.3 --spacing 1 --p_dim 4 --learning_rate 2e-3 --w_decay 0.01
 ```
 
 ```
-python3 train.py --ds_name glass --alpha 0.3 --spacing 2 --p_dim 16
---emb_type fourier --learning_rate 5e-4 --w_decay 5e-4
+python3 train.py --ds_name glass --alpha 0.3 --spacing 2 --p_dim 16 --emb_type fourier --learning_rate 5e-4 --w_decay 5e-4
 ```
 
 ```
-python3 train.py --ds_name thyroid --alpha 0.1 --spacing 1 --p_dim 6
---learning_rate 2e-3 --w_decay 0.01
+python3 train.py --ds_name thyroid --alpha 0.1 --spacing 1 --p_dim 6 --learning_rate 2e-3 --w_decay 0.01
 ```
 
 ```
-python3 train.py --ds_name satellite --alpha 0.1 --spacing 2 --p_dim 4
---learning_rate 5e-4 --w_decay 5e-4
+python3 train.py --ds_name satellite --alpha 0.1 --spacing 2 --p_dim 4 --learning_rate 5e-4 --w_decay 5e-4
 ```
 
 ```
-python3 train.py --ds_name cover --alpha 0.1 --spacing 1 --p_dim 8
---learning_rate 5e-4 --w_decay 5e-4
+python3 train.py --ds_name cover --alpha 0.1 --spacing 1 --p_dim 8 --learning_rate 5e-4 --w_decay 5e-4
 ```
