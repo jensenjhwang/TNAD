@@ -17,13 +17,13 @@ pip3 install -r requirements.txt
 
 Image datasets are directly retrieved from the Tensorflow datasets library.
 However, for the ODDS datasets, one has store the .mat files in a directory and
-subsequently pass the directory path in the --tab_dir flag. Ensure that the file
-name corresponds to the --ds_name flag when running train.py. Currently, the
-ODDS datasets are stored in "./data/".
+subsequently pass the directory path in the `--tab_dir` flag. Ensure that the
+file name corresponds to the `--ds_name` flag when running `train.py`.
+Currently, the ODDS datasets are stored in `./data/`.
 
 ### Running with Flags
 
-Experiments are run via flags specified in the train.py file. For example, to
+Experiments are run via flags specified in the `train.py` file. For example, to
 reproduce results for MNIST/Fashion-MNIST where only `0` is deemed normal, one
 can run
 
