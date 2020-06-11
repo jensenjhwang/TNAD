@@ -1,0 +1,7 @@
+flax==0.1.0
+jax==0.1.70
+jaxlib==0.1.47
+sklearn==0.0
+tensorflow==2.2.0
+tensorflow-datasets==3.1.0
+tensornetwork==0.4.0
