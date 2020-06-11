@@ -23,8 +23,9 @@ Currently, the ODDS datasets are stored in `./data/`.
 
 ### Running with Flags
 
-Experiments are run via flags specified in the `train.py` file. For example, to
-reproduce results for MNIST/Fashion-MNIST where only `0` is deemed normal, one
+Experiments are run via flags specified in the `train.py` file which trains
+a model and subsequently evaluates it on the test set. For example, to reproduce
+results for MNIST/Fashion-MNIST where only `0` is deemed normal, one
 can run
 
 ```
