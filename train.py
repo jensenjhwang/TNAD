@@ -1,4 +1,5 @@
 """Training code for TNAD."""
+
 import functools
 import os
 from datetime import datetime
@@ -13,10 +14,6 @@ import numpy as onpy
 import sklearn.metrics
 from flax import nn, optim
 from flax.training import checkpoints
-
-from jax.config import config
-
-config.update('jax_disable_jit', True)
 
 from tensorflow.io import gfile
 
