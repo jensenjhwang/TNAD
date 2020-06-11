@@ -55,7 +55,7 @@ python3 train.py --ds_name satellite --alpha 0.1 --spacing 2 --p_dim 4 --learnin
 ```
 
 ```
-python3 train.py --ds_name cover --alpha 0.1 --spacing 1 --p_dim 8 --learning_rate 5e-4 --w_decay 5e-4
+python3 train.py --ds_name cover --alpha 0.1 --spacing 1 --p_dim 8 --learning_rate 5e-4 --w_decay 5e-4 --batch_size 512
 ```
 
 ## Results
